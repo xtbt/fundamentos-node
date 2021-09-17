@@ -1,0 +1,5 @@
+Este archivo contiene texto puro.
+
+Esta es la línea 2 del texto puro.
+
+áéíóúñÑ

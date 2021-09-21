@@ -10,7 +10,7 @@ exec('ls -la', function (error, stdout, sterror) {
     };
 });
 
-exec('node src/modulos/console.js', function (error, stdout, sterror) {
+exec('node src/modules/console.js', function (error, stdout, sterror) {
     try {
         if (error) throw new Error(error);
         console.log(stdout);

@@ -1,0 +1,22 @@
+{
+  "name": "packages-example",
+  "version": "1.0.0",
+  "description": "This is just an example for using external packages in a local project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "packages",
+    "example",
+    "temp",
+    "course",
+    "node"
+  ],
+  "author": "jsl_code <jsanchez.1983@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "is-even": "^1.0.0",
+    "is-odd": "^3.0.1"
+  }
+}

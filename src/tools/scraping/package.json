@@ -1,0 +1,19 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "description": "Scraping example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "puppeteer",
+    "scraping"
+  ],
+  "author": "xtbt <jsanchez.1983@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^10.4.0"
+  }
+}

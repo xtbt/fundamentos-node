@@ -1,0 +1,22 @@
+{
+  "name": "electron-desktop-apps",
+  "version": "1.0.0",
+  "description": "Desktop applications with Electron example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "node",
+    "electron",
+    "javascript",
+    "desktop",
+    "apps"
+  ],
+  "author": "xtbt <jsanchez.1983@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^15.0.0"
+  }
+}

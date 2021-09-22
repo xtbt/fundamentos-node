@@ -1,0 +1,24 @@
+{
+  "name": "automatization",
+  "version": "1.0.0",
+  "description": "Node automatization example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp", 
+    "build": "gulp build",
+    "serve": "gulp serve"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "automatization",
+    "gulp"
+  ],
+  "author": "xtbt <jsanchez.1983@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-server-livereload": "^1.9.2"
+  }
+}

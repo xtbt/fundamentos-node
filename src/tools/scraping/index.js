@@ -4,8 +4,8 @@ const puppeteer = require('puppeteer');
 (async () => {
     try {
         console.log('Launch browser...');
-        const browser = await puppeteer.launch({headless: false}); // Launches browser
-
+        const browser = await puppeteer.launch(); // Launches browser on the background
+        //const browser = await puppeteer.launch({headless: false}); // Launches browser on the foreground
         const page = await browser.newPage();
         await page.goto('https://es.wikipedia.org/wiki/Node.js');
 
@@ -14,9 +14,6 @@ const puppeteer = require('puppeteer');
             return h1.innerText;
         });
         console.log(title1);
-        
-        console.log('Closing browser...');
-        console.log('Browser closed');
     } catch (error) {
         console.error('Personalized Error: ', error);
         browser.close();
